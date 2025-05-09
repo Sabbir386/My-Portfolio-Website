@@ -8,6 +8,7 @@
 
 body {
     font-family: "Oswald", sans-serif;
+    overflow-x: hidden !important;
 }
 
 :root {
@@ -1013,19 +1014,6 @@ background-color: var(--white-color);
 
 
 
-.back-to-top {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--gray-color);
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    text-decoration: none;
-    transition: 0.2s ease-out;
-}
 
 .back-to-top span {
     color: var(--white-color);
@@ -1048,11 +1036,11 @@ html {
 
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    display: inline-flex;
-    align-items: center;
+    bottom: 40px;
+    right: 20px;
+    display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--gray-color);
     border-radius: 0.5rem;
     padding: 0.5rem;

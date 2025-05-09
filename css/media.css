@@ -1,186 +1,193 @@
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+}
 
 @media only screen and (max-width: 992px) {
-    .navMenu {
-        margin: 0;
-    }
+  .navMenu {
+    margin: 0;
+  }
 
-    .menuBtn {
-        margin: 0;
-    }
-    .twoPart2-flex{
-        display: none;
-    }
-    .twoPart2-position-box{
-        margin-top: 100%;
-    }
-    .twoPart3-text{
-        margin-top: 80%;
-    }
-    .twoPart3-name2{
-        margin-top: 13%;
-    }
-    .project-grid{
-        display: none;
-    }
-    .services-section-grid{
-        display: none;
-    }
-    .testmonial-section-box {
-        height: 478px;
-        padding: 2%;
-    }
-    .box-buddy{
-        display: none;
-    }
-    .buddyse-section-box{
-        height: 550px;
-    }
-    .integration-box{
-        height: 190px;
-    }
-    .navmenu-active::before{
-        width: 3%;
-    }
-    .navMenu:hover::before{
-        width: 5%;
-    }
+  .menuBtn {
+    margin: 0;
+  }
+  .twoPart2-flex {
+    display: none;
+  }
+  .twoPart2-position-box {
+    margin-top: 100%;
+  }
+  .twoPart3-text {
+    margin-top: 80%;
+  }
+  .twoPart3-name2 {
+    margin-top: 13%;
+  }
+
+  .project-grid {
+    display: none;
+  }
+  .services-section-grid {
+    display: none;
+  }
+  .testmonial-section-box {
+    height: 478px;
+    padding: 2%;
+  }
+  .box-buddy {
+    display: none;
+  }
+  .buddyse-section-box {
+    height: 550px;
+  }
+  .integration-box {
+    height: 190px;
+  }
+  .navmenu-active::before {
+    width: 3%;
+  }
+  .navMenu:hover::before {
+    width: 5%;
+  }
 }
 
 @media only screen and (max-width: 774px) {
-    .banner-section-twoPart {
-        flex-direction: column;
-    }
-    .twoPart2-position {
-        position: relative;
-        width: 80%;
-        height: 450px;
-        margin-top: -55%;
-        margin-left: 20%;
-    }
-    .banner-section-twoPart2 {
-        width: 100%;
-    }
+  .banner-section-twoPart {
+    flex-direction: column;
+  }
+  .twoPart2-position {
+    position: relative;
+    width: 80%;
+    height: 450px;
+    margin-top: -55%;
+    margin-left: 20%;
+  }
+  .banner-section-twoPart2 {
+    width: 100%;
+  }
 
-    .twoPart2-positon-pic {
-        height: 345px;
-    }
-    .twoPart2-position-text {
-        font-size: 34px;
-        margin-left: -18px;
-        margin-top: 80px;
-    }
-    .twoPart2-position-box{
-        width: 80%;
-        margin-top: 92%;
-    }
-    .twoPart2-flex{
-        display: none;
-    }
-    .twoPart3-name {
-        font-size: 30px;
-        margin-left: 91px;
-        margin-top: -102%;
-    }
-    .twoPart3-name2 {
-        font-size: 30px;
-        margin-left: 119px;
-        margin-top: -94%;
-    }
-    .banner-section-twoPart3{
-        width: 100%;
-    }
-    .twoPart3-text {
-        margin-top: -11%;
-    }
-    .twoPart4-box {
-        display: flex;
-        margin-top: -103%;
-        margin-bottom: 20px;
-    }
-    .github-icon{
-        margin-left: 28px;
-    }
-    #journey-section{
-        background-position: center;
-    }
-    .box-buddy{
-        display: none;
-    }
-    .buddyse-section-box{
-        padding: 2%;
-        height: auto;
-    }
-    .social-end{
-        display: none;
-    }
-    .integration-box{
-        height: 135px;
-    }
-    .navmenu-active::before{
-        width: 5%;
-    }
-    .navMenu:hover::before{
-        width: 8%;
-    }
+  .twoPart2-positon-pic {
+    height: 345px;
+  }
+  .twoPart2-position-text {
+    font-size: 34px;
+    margin-left: -18px;
+    margin-top: 80px;
+  }
+  .twoPart2-position-box {
+    width: 80%;
+    margin-top: 92%;
+  }
+  .twoPart2-flex {
+    display: none;
+  }
+  .twoPart3-name {
+    font-size: 30px;
+    margin-left: 91px;
+    margin-top: -102%;
+  }
+  .twoPart3-name2 {
+    font-size: 30px;
+    margin-left: 119px;
+    margin-top: -94%;
+  }
+  
+  .banner-section-twoPart3 {
+    width: 100%;
+  }
+  .twoPart3-text {
+    margin-top: -11%;
+  }
+  .banner-section-twoPart4 {
+    width: 100%;
+}
+  .twoPart4-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -10%;
+  }
+  /* .github-icon {
+    margin-left: 28px;
+  } */
+  #journey-section {
+    background-position: center;
+  }
+  .box-buddy {
+    display: none;
+  }
+  .buddyse-section-box {
+    padding: 2%;
+    height: auto;
+  }
+  .social-end {
+    display: none;
+  }
+  .integration-box {
+    height: 135px;
+  }
+  .navmenu-active::before {
+    width: 5%;
+  }
+  .navMenu:hover::before {
+    width: 8%;
+  }
 }
 
 @media only screen and (max-width: 421px) {
-    .banner-section-twoPart {
-        flex-direction: column;
-    }
+  .banner-section-twoPart {
+    flex-direction: column;
+  }
 
-    .twoPart2-position {
-        position: relative;
-        width: 80%;
-        height: 450px;
-        margin-top: -60%;
-        margin-left: 20%;
-    }
+  .twoPart2-position {
+    position: relative;
+    width: 80%;
+    height: 450px;
+    margin-top: -60%;
+    margin-left: 20%;
+  }
 
-    .banner-section-twoPart2 {
-        width: 100%;
-    }
+  .banner-section-twoPart2 {
+    width: 100%;
+  }
 
-    .twoPart2-positon-pic {
-        height: 345px;
-    }
+  .twoPart2-positon-pic {
+    height: 345px;
+  }
 
-    .twoPart2-position-text {
-        font-size: 34px;
-        margin-left: -18px;
-        margin-top: 80px;
-    }
-    .twoPart2-position-box{
-        width: 80%;
-        margin-top: 112%;
-    }
-    .twoPart2-flex{
-        display: none;
-    }
-    .twoPart3-name {
-        font-size: 30px;
-        margin-left: 91px;
-        margin-top: -116%;
-        color: var(--white-color);
-    }
-    .twoPart3-name2 {
-        font-size: 30px;
-        margin-left: 120px;
-        margin-top: -108%;
-    }
-    .banner-section-twoPart3{
-        width: 100%;
-    }
-    .twoPart3-text {
-        margin-top: -6%;
-    }
-    .twoPart4-box {
-        display: flex;
-        margin-top: -103%;
-        margin-bottom: 20px;
-    }
-    .github-icon{
-        margin-left: 28px;
-    }
+  .twoPart2-position-text {
+    font-size: 34px;
+    margin-left: -18px;
+    margin-top: 80px;
+  }
+  .twoPart2-position-box {
+    width: 80%;
+    margin-top: 112%;
+  }
+  .twoPart2-flex {
+    display: none;
+  }
+  .twoPart3-name {
+    font-size: 30px;
+    margin-left: 91px;
+    margin-top: -116%;
+    color: var(--white-color);
+  }
+  .twoPart3-name2 {
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: -108%;
+  }
+  .banner-section-twoPart3 {
+    width: 100%;
+  }
+  .twoPart3-text {
+    margin-top: -6%;
+  }
+  /* .twoPart4-box {
+    display: flex;
+    margin-top: -103%;
+    margin-bottom: 20px;
+  } */
+  .github-icon {
+    margin-left: 28px;
+  }
 }
