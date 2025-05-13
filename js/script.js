@@ -66,16 +66,33 @@ $(function () {
 		resetCallback: function () { }
 	});
 
+ $('#contact-form').on('submit', function (e) {
+      e.preventDefault();
 
-	$('#contact-form').on('submit', function (e) {
-		e.preventDefault();
+      // Disable button and show spinner
+      $('#send-button').prop('disabled', true);
+      $('#send-button .btn-text').text('Sending...');
+      $('#send-button .spinner-border').removeClass('d-none');
 
-		emailjs.sendForm('service_fsjmf9a', 'template_j19eqyt', this)
-			.then(function () {
-				alert('Message sent successfully!');
-				$('#contact-form')[0].reset();
-			}, function (error) {
-				alert('Failed to send message: ' + JSON.stringify(error));
-			});
-	});
+      emailjs.sendForm('service_fsjmf9a', 'template_j19eqyt', this)
+        .then(function () {
+          $('#contact-form')[0].reset();
+          showModal("✅ Message sent successfully!", "Success");
+        }, function (error) {
+          showModal("❌ Failed to send message. Please try again later.", "Error");
+        })
+        .finally(function () {
+          $('#send-button').prop('disabled', false);
+          $('#send-button .btn-text').text('Send Message');
+          $('#send-button .spinner-border').addClass('d-none');
+        });
+
+      function showModal(message, title) {
+        $('#feedbackModalBody').text(message);
+        $('#feedbackModalLabel').text(title);
+        const modal = new bootstrap.Modal(document.getElementById('feedbackModal'));
+        modal.show();
+      }
+    });
+	
 });

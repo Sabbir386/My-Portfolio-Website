@@ -1135,7 +1135,14 @@
                 placeholder="Enter Your Message"
                 required
               />
-              <button class="contact-btn" type="submit">Send Message</button>
+              <button class="contact-btn" type="submit" id="send-button">
+                <span class="btn-text">Send Message</span>
+                <span
+                  class="spinner-border spinner-border-sm d-none"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+              </button>
             </form>
           </div>
           <div class="col-md-6">
@@ -1323,6 +1330,40 @@
     <a href="#" class="back-to-top">
       <span class="material-icons"><i class="fa-solid fa-arrow-up"></i></span>
     </a>
+    <!-- Success/Error Modal -->
+    <div
+      class="modal fade"
+      id="feedbackModal"
+      tabindex="-1"
+      aria-labelledby="feedbackModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="feedbackModalLabel">Status</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="feedbackModalBody">
+            <!-- Message will be inserted here -->
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -1336,14 +1377,14 @@
     <script src="js/smtp.js"></script>
     <!-- EmailJS SDK -->
     <script
-    type="text/javascript"
-    src="https://cdn.emailjs.com/dist/email.min.js"
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
     ></script>
     <script type="text/javascript">
       (function () {
         emailjs.init("8Mbv4xMjFilqd7M0G"); // Replace with your EmailJS public key
       })();
-      </script>
-      <script src="js/script.js"></script>
+    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
