@@ -381,7 +381,7 @@ background-color: var(--white-color);
 	border: 1px solid var(--gray-color);
 	border-radius: 10px;
 	margin-bottom: 20px;
-	height: 166px;
+	min-height: 166px;
 }
 
 .about-box-text {
