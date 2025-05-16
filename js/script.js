@@ -74,7 +74,7 @@ $(function () {
       $('#send-button .btn-text').text('Sending...');
       $('#send-button .spinner-border').removeClass('d-none');
 
-      emailjs.sendForm('service_fsjmf9a', 'template_j19eqyt', this)
+      emailjs.sendForm('service_mgkdjoo', 'template_j19eqyt', this)
         .then(function () {
           $('#contact-form')[0].reset();
           showModal("✅ Message sent successfully!", "Success");
