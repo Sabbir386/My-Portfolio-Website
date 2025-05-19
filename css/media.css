@@ -89,16 +89,18 @@
     margin-left: 119px;
     margin-top: -94%;
   }
-  
+
   .banner-section-twoPart3 {
     width: 100%;
+    margin-top: 100%;
+    margin-left: 10%;
   }
   .twoPart3-text {
     margin-top: -11%;
   }
   .banner-section-twoPart4 {
     width: 100%;
-}
+  }
   .twoPart4-box {
     display: flex;
     flex-direction: row;
