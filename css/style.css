@@ -116,7 +116,6 @@ a:hover {
 }
 .left-side-cont {
   position: relative;
-  min-height: 500px;
 }
 .profile-img {
   filter: grayscale(1);
@@ -190,6 +189,7 @@ a:hover {
     color: var(--gray-color);
 }
 .banner-text{
+    text-align: justify;
     color: var(--gray-color);
 }
 .download-btn {

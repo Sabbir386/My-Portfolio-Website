@@ -105,6 +105,16 @@
     justify-content: center;
     margin-top: -10%;
   }
+  .profile-img{
+    height: 370px;
+  }
+  .vertical-text {
+    transform: rotate(180deg) translateY(38px);
+}
+.highlight {
+  
+    transform: rotate(180deg) translateY(38px);
+}
   /* .github-icon {
     margin-left: 28px;
   } */
