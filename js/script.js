@@ -32,6 +32,13 @@ AOS.init();
 //     document.body.classList.toggle("dark-theme");
 // }
 $(function () {
+	$(window).on("scroll", function () {
+    if ($(this).scrollTop() > 50) {
+      $(".back-to-top").css("display", "flex").fadeIn();
+    } else {
+      $(".back-to-top").fadeOut();
+    }
+  });
 	// $(".typed").typed({
 	// 	strings: ["Developers.", "Designers.", "People."],
 	// 	// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
